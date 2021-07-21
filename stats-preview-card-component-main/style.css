@@ -1,0 +1,55 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+}
+
+img{
+    width: 460px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#stats{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px;
+}
+
+#stats p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6)
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#h{
+    margin: auto;
+    width: 360px;
+    height: 300px;
+}
+
+#card{
+    background-color: hsl(244, 38%, 16%);
+    width: 1000px;
+    height: 400px;
+    border-radius: 9px;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
